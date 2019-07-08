@@ -1,5 +1,5 @@
-const fancyHTML = `
-<div class="modal fade fm fm-success st-modal-success  show" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: block;">
+export const fancyHTML = `
+<div class="modal fade fm fm-success st-modal-success" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" >
     <div class="modal-dialog modal-dialog-zoom" role="document">
         <div class="modal-content border-0">					
             <div class="modal-header py-0 border-0 pt-1">

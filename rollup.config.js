@@ -6,12 +6,18 @@ export default {
   input: 'index.js',
   output: {
     file: 'fancy-modal.js',
-    format: 'cjs'
+    format: 'umd',
+    globals: {
+      'dom': 'dom',
+      'Modal': 'modal',
+      '$': 'jquery'
+    },
   },
   plugins: [
     resolve(),
     babel({
       exclude: 'node_modules/**' // only transpile our source code
-    })
+    }),
+
   ]
 };
